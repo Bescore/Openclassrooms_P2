@@ -1,6 +1,168 @@
 /*La police de caractère*/
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
 
-.caractere{
-    font-family: 'Raleway', sans-serif;
+.caractere {
+  font-family: "Raleway", sans-serif;
+}
+/*centrer la page*/
+
+.middlepage {
+  margin: 40px;
+}
+/*flex header pour aligner reservia et la barre nav*/
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+/*flex la barre nav pour aligner heberg. s'inscr. act. et les écarter les uns des autres*/
+.flexnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.écart {
+  margin-right: 80px;
+}
+/*bordure haute bleu hébergement*/
+.bordbleu {
+  border-top: 1px solid #0065fc;
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+/* flex les éléments de la barre de recherche et stylisations des éléments*/
+.flexsearch {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.divchart {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #f2f2f2;
+  outline: none;
+}
+.input {
+  height: 30px;
+}
+.recherche {
+  height: 36px;
+  width: 90px;
+  background-color: #0065fc;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-weight: bold;
+  outline: none;
+  color: #f2f2f2;
+}
+/*flex filtres*/
+.flexdivfiltre {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 45px;
+  width: 180px;
+  padding-right: 40px;
+  margin-right: 50px;
+}
+.flexflitrebis {
+  border: 2px solid #f2f2f2;
+  border-radius: 20px;
+  border-left: none;
+}
+
+.bords {
+  border: 1px solid #0065fc;
+}
+.couleuricon {
+  color: #0065fc;
+}
+.divicon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #deebff;
+}
+/* flex plus de 500 logements*/
+.flexlogement {
+  display: flex;
+}
+.alignicon {
+  display: flex;
+  align-items: center;
+}
+.iconinfo {
+  color: #fff;
+  background-color: #0065fc;
+  border-radius: 50%;
+}
+.ecart500 {
+  margin-left: 10px;
+}
+/* flex section 1*/
+.flexsection1 {
+  display: flex;
+  justify-content: space-around;
+}
+.bullegrise1 {
+  width: 1050px;
+  height: 700px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+}
+.vignette1 {
+  background-image: url(images/cannebiere.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 240px;
+  border-radius: 10px;
+}
+.flexvignette {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+/*populaire*/
+.bullegrise2 {
+  width: 450px;
+  height: 700px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+}
+.bulleclonegrise {
+  width: 450px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.flexpopulairechart {
+  display: flex;
+  justify-content: space-around;
+}
+.flexchart {
+  display: flex;
+  align-items: center;
+}
+.vignettepop {
+  width: 300px;
+  height: 140px;
+  background: red;
+}
+
+/*flexfooter*/
+.flexfoot {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f2f2f2;
 }
