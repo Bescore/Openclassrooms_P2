@@ -7,7 +7,7 @@
 /*centrer la page*/
 
 .middlepage {
-  margin: 40px;
+  margin: 0 80px 0 80px;
 }
 /*flex header pour aligner reservia et la barre nav*/
 .header {
@@ -34,11 +34,11 @@
 .flexsearch {
   display: flex;
   align-items: center;
-  height: 40px;
+  height: 60px;
 }
 .divchart {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 55px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,11 +48,11 @@
   outline: none;
 }
 .input {
-  height: 30px;
+  height: 45px;
 }
 .recherche {
-  height: 36px;
-  width: 90px;
+  height: 51px;
+  width: 100px;
   background-color: #0065fc;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -61,26 +61,32 @@
   color: #f2f2f2;
 }
 /*flex filtres*/
-.flexdivfiltre {
+.flexfiltrage {
   display: flex;
   align-items: center;
-  list-style: none;
-  height: 45px;
-  width: 180px;
-  padding-right: 40px;
-  margin-right: 50px;
 }
-.flexflitrebis {
-  border: 2px solid #f2f2f2;
-  border-radius: 20px;
-  border-left: none;
+.flexfiltrage1 {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.flexlist {
+  display: flex;
+  list-style: none;
 }
 
 .bords {
-  border: 1px solid #0065fc;
+  border: 1px solid #f2f2f2;
+  border-radius: 20px;
+  padding-right: 10px;
+  border-left: none;
 }
 .couleuricon {
   color: #0065fc;
+}
+.couleuricon1{
+  color: #f2f2f2;
 }
 .divicon {
   height: 50px;
@@ -107,156 +113,112 @@
 .ecart500 {
   margin-left: 10px;
 }
-/* flex section 1/hebergement*/
-.flexsection1 {
-  display: flex;
-  justify-content: space-around;
+/*hebergement///////////////////////////////////////////////////*/
+.sizeimg {
+  width: 250px;
+  height: 100px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  
 }
-.bullegrise1 {
-  width: 1050px;
-  height: 700px;
+.sizevignette{
+  background-color: #fff;
+  padding: 1%;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px 1px black;
+  height: 200px;
+}
+ .grid{
+   display: grid;
+   grid-template-columns: 1.9fr 1fr;
+   column-gap: 30px;
+   margin: 20px 0px 60px 0px; 
+ }
+.bloccolorgrey{
   background-color: #f2f2f2;
   border-radius: 20px;
+  padding: 20px;
+}   
+
+.hmarg{
+  margin: 20px;
 }
-.vignette0 {
-  width: 300px;
-  height: 240px;
-  border-radius: 10px;
-  padding: 0.5% 0.5% 0.5% 0.5%;
-  background-color: #fff;
+.grille{
+  display: grid;
+  max-width: 100%;
+  width: 100%;
+  height: 500px; 
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:1fr 1fr;
+  gap: 20px;
+  
+  
+  
+}
+  .griditem{
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  
+}
+.sizecase {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 20px;
+  background: #f2f2f2;
   display: flex;
+  flex-direction: column;
+  border: 5px solid transparent;
   justify-content: center;
-  align-items: center;
+  padding: 0.5%;
 }
-.vignette1 {
-  background-image: url(images/cannebiere.jpg);
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  height: 240px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+
+.sizetext{
+  width: 206px;
+  height: 66px;
 }
-.vignette2 {
-  background-image: url(images/port.jpg);
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  height: 240px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-.vignette3 {
-  background-image: url(images/mouette.jpg);
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  height: 240px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-.vignette4 {
-  background-image: url(images/mer.jpg);
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  height: 240px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-.vignette5 {
-  background-image: url(images/panier.jpg);
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  height: 240px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-.vignette6 {
-  background-image: url(images/amina.jpg);
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  height: 240px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-.flexvignette {
+/*les plus populaires///////////////////////////////////*/
+.flexpopulaire{
   display: flex;
   justify-content: space-between;
-  margin: 40px;
+  align-items: center;
+  
 }
-/*populaire*/
-.bullegrise2 {
-  width: 450px;
-  height: 700px;
+.paddaside{
+  padding: 2%;
   background-color: #f2f2f2;
   border-radius: 20px;
 }
-.bulleclonegrise {
-  width: 450px;
-  height: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-.flexpopulairechart {
-  display: flex;
-  justify-content: space-around;
-}
-.flexchart {
-  display: flex;
-  align-items: center;
-}
-.vignettepop0 {
-  width: 300px;
-  height: 140;
-  border-radius: 20px;
-  padding: 1% 0 1% 1%;
+.sizevignette1{
   background-color: #fff;
-}
-.vignettepop1 {
-  background-image: url(populaire/soleil.jpg);
-  background-position: left;
-  background-size: cover;
-  width: 300px;
-  height: 140px;
+  padding: 1%;
   border-radius: 20px;
+  box-shadow: 1px 1px 1px 1px black;
+  height: 100px;
+  display: flex;
 }
-.vignettepop2 {
-  background-image: url(populaire/eau.jpg);
-  background-position: left;
-  background-size: cover;
-  width: 300px;
-  height: 140px;
-  border-radius: 20px;
+
+.sizeimg2 {
+  width: 40%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
-.vignettepop3 {
-  background-image: url(populaire/blanc.jpg);
-  background-position: center;
-  background-size: cover;
-  width: 300px;
-  height: 140px;
-  border-radius: 20px;
+.gridpopular{
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 90%;
+  width: 80%;
+  row-gap: 25px;
 }
+
 
 /*flexfooter*/
 .flexfoot {
   display: flex;
-  justify-content: space-around;
   background-color: #f2f2f2;
+}
+.margfoot{
+  margin-right: 400px;
 }
