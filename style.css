@@ -13,6 +13,7 @@
 .header {
   display: flex;
   justify-content: space-between;
+  width: 90%;
 }
 /*flex la barre nav pour aligner heberg. s'inscr. act. et les écarter les uns des autres*/
 .flexnav {
@@ -129,7 +130,7 @@
 .grid {
   display: grid;
   grid-template-columns: 1.9fr 1fr;
-  column-gap: 40px;
+  column-gap: 50px;
   margin: 20px 0px 60px 0px;
 }
 .bloccolorgrey {
@@ -181,7 +182,7 @@
   align-items: center;
 }
 .paddaside {
-  padding: 2%;
+  padding: 2.2%;
   background-color: #f2f2f2;
   border-radius: 20px;
 }
@@ -210,43 +211,59 @@
   gap: 20px;
 }
 /*section activité////////////////////////////*****/
-.sectflex{
+.sectflex {
   display: flex;
-  width: auto;
-  height:auto;
-  justify-content: space-between;
+  width: 95%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 40px;
-  
 }
-
-.sizeact{
+.divmarginin {
+  margin: -5px;
+}
+.sizeact {
   width: 360px;
   height: 500px;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
+  object-fit: cover;
 }
-.cover{
+.cover {
   object-fit: cover;
   width: auto;
-  height: 580px;
-  background-color: #f2f2f2;
+  height: auto;
+  background-color: #ffff;
   border-radius: 20px;
   box-shadow: 1px 1px 1px 1px rgb(151, 147, 147);
 }
-.sizeact1{
+.sizeact1 {
   width: 360px;
   height: 200px;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
+  object-fit: cover;
 }
-.between2divs{
+.between2divs {
   margin-bottom: 50px;
+}
+.bottomradius {
+  border-radius: 20px;
+  background-color: #fff;
+  border-top: none;
+  height: 250px;
+  box-shadow: 1px 1px 1px 1px rgb(151, 147, 147);
+}
+
+.captionmargin {
+  margin: 10px;
 }
 /*flexfooter*/
 .flexfoot {
   display: flex;
+  width: 95%;
 
-  background-color: #f2f2f2; 
+  background-color: #f2f2f2;
 }
 .margfoot {
   margin-right: 300px;
