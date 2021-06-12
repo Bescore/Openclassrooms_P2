@@ -193,6 +193,7 @@ i:hover {
 }
 .paddcapt {
   margin: 5px;
+  
 }
 /*les plus populaires///////////////////////////////////*/
 .flexpopulaire {
@@ -376,4 +377,21 @@ i:hover {
     width: 157%;
   }
 
+}
+
+/*version mobile*/
+
+@media only screen and (max-width: 320px) {
+
+  :root{
+    font-size: 16px;
+  }
+  .middlepage {
+    margin: none;
+  }
+  /*query  mobile header*/
+  .header {
+    display: flow-root;
+      
+}
 }
