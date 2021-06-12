@@ -1,6 +1,12 @@
 /*La police de caractère*/
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
-
+a {
+  color: black;
+  text-decoration: none;
+}
+i:hover {
+  color: rgb(218, 108, 108);
+}
 .caractere {
   font-family: "Raleway", sans-serif;
 }
@@ -20,6 +26,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-weight: bold;
 }
 .écart {
   margin-right: 80px;
@@ -49,7 +56,13 @@
   outline: none;
 }
 .input {
-  height: 45px;
+  height: 48px;
+  border-style: solid;
+  border-color: #f2f2f2;
+}
+::placeholder {
+  font-weight: bold;
+  color: black;
 }
 .recherche {
   height: 51px;
@@ -60,6 +73,7 @@
   font-weight: bold;
   outline: none;
   color: #f2f2f2;
+  margin-left: -5px;
 }
 /*flex filtres*/
 .flexfiltrage {
@@ -70,6 +84,7 @@
   display: flex;
   align-items: center;
   margin: 20px;
+  font-weight: bold;
 }
 
 .flexlist {
@@ -114,7 +129,7 @@
 .ecart500 {
   margin-left: 10px;
 }
-/*hebergement///////////////////////////////////////////////////*/
+/*hébergement///////////////////////////////////////////////////*/
 .sizeimg {
   width: 250px;
   height: 100px;
@@ -127,6 +142,7 @@
   border-radius: 20px;
   box-shadow: 2px 2px 2px 2px rgb(151, 147, 147);
 }
+
 .grid {
   display: grid;
   grid-template-columns: 1.9fr 1fr;
@@ -141,6 +157,7 @@
 
 .hmarg {
   margin: 20px;
+  font-weight: bold;
 }
 .grille {
   display: grid;
@@ -148,13 +165,13 @@
   height: auto;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 20px;
+  gap: 5px;
   justify-content: center;
   align-items: center;
 }
 .griditem {
   width: 100%;
-  height: 90px;
+  height: 100px;
   object-fit: cover;
 }
 .sizecase {
@@ -174,12 +191,15 @@
   width: 206px;
   height: 66px;
 }
-
+.paddcapt{
+  margin: 5px;
+}
 /*les plus populaires///////////////////////////////////*/
 .flexpopulaire {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  font-weight: bold;
 }
 .paddaside {
   padding: 2.2%;
@@ -192,6 +212,7 @@
   border-radius: 20px;
   box-shadow: 2px 2px 2px 2px rgb(151, 147, 147);
   height: 125px;
+
   display: flex;
   object-fit: cover;
 }
@@ -201,6 +222,7 @@
   height: 100%;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+  object-fit: cover;
 }
 .gridpopular {
   display: grid;
@@ -209,6 +231,9 @@
   height: 96.5%;
   width: 70%;
   gap: 20px;
+}
+.paddcaptpop{
+  padding-top: 10px;
 }
 /*section activité////////////////////////////*****/
 .sectflex {
@@ -257,6 +282,7 @@
 
 .captionmargin {
   margin: 10px;
+  font-weight: bold;
 }
 /*flexfooter*/
 .flexfoot {
@@ -266,5 +292,13 @@
   background-color: #f2f2f2;
 }
 .margfoot {
-  margin-right: 300px;
+  margin-right: 20%;
+}
+/*MODIFICATIONS MINEURES DESKTOP*/
+
+.gras {
+  font-weight: bold;
+}
+.liendeco {
+  text-decoration: none;
 }
