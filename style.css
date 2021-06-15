@@ -557,7 +557,8 @@ i:hover {
   }
 /*activité*/
 .sectflex {
-  display: flow-root;
+  display: flex;
+  flex-direction: column;
   width: 250%;
   height: auto;
   align-items: center;
@@ -565,11 +566,26 @@ i:hover {
   margin-bottom: 40px;
 }
 .sizeact {
-  width: 360px;
-  height: 500px;
+  width: 100%;
+  height: 18vh;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   object-fit: cover;
+}
+.sizeact1 {
+  width: 100%;
+  height: 18vh;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  object-fit: cover;
+}
+.cover {
+  object-fit: cover;
+  width: 160vw;
+  height: auto;
+  background-color: #ffff;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px 1px rgb(151, 147, 147);
 }
 /*footer mobile*/
 .flexfoot {
