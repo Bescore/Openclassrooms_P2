@@ -144,17 +144,23 @@ i:hover {
 }
 
 .grid {
-  display: grid;
+  display:grid;
   grid-template-columns: 1.9fr 1fr;
   column-gap: 50px;
   margin: 20px 0px 60px 0px;
   width: auto;
   height: auto;
+  grid-row: 2;
 }
+
+
+
 .bloccolorgrey {
   background-color: #f2f2f2;
   border-radius: 20px;
   padding: 15px;
+  width: auto;
+  margin: auto;
 }
 
 .hmarg {
@@ -170,6 +176,7 @@ i:hover {
   gap: 1vw;
   justify-content: center;
   align-items: center;
+  
 }
 .griditem {
   width: 100%;
@@ -396,16 +403,17 @@ i:hover {
 
 /*version mobile*/
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px) {
   :root {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   .middlepage {
-    margin: none;
+    margin: 0px 50px 0px 50px;
   }
   /*query  mobile header*/
   .header {
     display: flow-root;
+    margin-left: 40pxpx;
   }
   .flexnav {
     display: flex;
@@ -415,7 +423,7 @@ i:hover {
   }
   .heberact {
     margin-top: 50px;
-    margin-left: 90px;
+    margin-left: 150px;
   }
   .inscabsolute {
     position: absolute;
@@ -425,4 +433,149 @@ i:hover {
   .reserviaabso {
     position: absolute;
   }
+  /*trouvez.....mobile*/
+  .trouvez{
+    width: 188vw;
+  }
+  /*en plein centre mobile*/
+  .divwidth{
+    width: 200vw;
+
+  }
+  /*searchmobile*/
+  .flexsearch {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 200vw;
+    margin-left: 0vw;
+    
+  }
+  .recherche {
+    height: 51px;
+    width: 100px;
+    background-color: #0065fc;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: bold;
+    outline: none;
+    color: #f2f2f2;
+    margin-left: -10px;
+  }
+  
+  
+  .divchart {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: #f2f2f2;
+    outline: none;
+  }
+  
+
+
+  /*filtres*/
+  .flexfiltrage {
+    display: flow-root;
+    align-items: center;
+    width: 50px;
+  }
+  .flexlist {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    width: 130vw;
+    margin-left: -55px;
+  }
+  .marginlist{
+    margin-left: 0px;
+  }
+  /*plus de 500...mobile*/
+  
+  .widthupgrade{
+    width: 150vw;
+  }
+
+  /*hébergement*/
+  .grille {
+    display: grid;
+    width: 80%;
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+  }
+  .bloccolorgrey {
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 15px;
+    width: 180%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr ;
+    
+    column-gap: 50px;
+    margin:0px ;
+    width: 110%;
+    height: auto;
+    row-gap: 60px;
+  }
+  .gridpopular {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.25fr 0.95FR 0.95fr 0.95fr;
+    height: 100%;
+    width: 185%;
+    
+    
+    align-items: center;
+    grid-row: 1;
+
+    
+  }
+  .sizevignette1 {
+    background-color: #fff;
+    padding: 1%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(151, 147, 147);
+    height: 50%;
+  
+    display: flex;
+    object-fit: cover;
+  }
+/*activité*/
+.sectflex {
+  display: flow-root;
+  width: 250%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.sizeact {
+  width: 360px;
+  height: 500px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  object-fit: cover;
+}
+/*footer mobile*/
+.flexfoot {
+  display: flow-root;
+  width: 250%;
+
+  background-color: #f2f2f2;
+}
 }
