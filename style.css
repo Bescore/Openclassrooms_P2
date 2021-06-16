@@ -596,11 +596,12 @@ i:hover {
   /*footer mobile*/
   .flexfoot {
     display: flow-root;
-    width: 250%;
+    width: 230%;
     height: 110vh;
     display: flex;
     flex-direction: column;
     align-items: space-between;
+    padding-left: 50px;
 
     background-color: #f2f2f2;
   }
