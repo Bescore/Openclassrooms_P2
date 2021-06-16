@@ -226,7 +226,6 @@ i:hover {
   border-radius: 20px;
   box-shadow: 2px 2px 2px 2px rgb(151, 147, 147);
   height: 125px;
-
   display: flex;
   object-fit: cover;
 }
@@ -304,6 +303,8 @@ i:hover {
 .captionmargin {
   margin: 10px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
 }
 /*flexfooter*/
 .flexfoot {
@@ -386,7 +387,11 @@ i:hover {
     border-radius: 20px;
   }
   .starsmargin {
-    margin-top: 40px;
+    margin-top: 9px;
+  }
+  .paddcaptpop {
+    padding-top: 10px;
+    margin-left: 20px;
   }
   /*Activité*/
 
@@ -417,6 +422,11 @@ i:hover {
     margin: 30px;
     font-weight: bold;
   }
+  .coverlink{
+    height: 100%;
+    width: auto;
+  }
+
   /*mediatabletfooter*/
 
   .flexfoot {
@@ -554,7 +564,6 @@ i:hover {
   .grid {
     display: grid;
     grid-template-columns: 1fr;
-
     column-gap: 50px;
     margin: 0px;
     width: 110%;
@@ -580,6 +589,13 @@ i:hover {
     box-shadow: 2px 2px 2px 2px rgb(151, 147, 147);
     height: 70%;
     display: flex;
+    object-fit: cover;
+  }
+  .sizeimg2 {
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     object-fit: cover;
   }
   /*figcaption pop marges*/
