@@ -1,5 +1,7 @@
 /*La police de caractère*/
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
+* {
+  font-family: "Raleway", sans-serif;
+}
 a {
   color: black;
   text-decoration: none;
@@ -249,7 +251,7 @@ i:hover {
 .paddaside {
   padding: 2.2%;
   background-color: #f2f2f2;
-  border-radius: 0px;
+  border-radius: 20px;
 }
 .paddcaptpop {
   padding-top: 10px;
@@ -343,7 +345,7 @@ i:hover {
     width: 200px;
     border-left: none;
   }
-  /*bulle hébergement*/
+  /*bulle hébergement /populaire*/
   .grille {
     display: grid;
     width: auto;
@@ -367,6 +369,24 @@ i:hover {
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px rgb(151, 147, 147);
     height: 85%;
+  }
+  .gridpopular {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.25fr 1fr 1fr 1fr;
+    height: 98%;
+    width: 74.2%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .paddaside {
+    padding: 2.2%;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+  }
+  .starsmargin {
+    margin-top: 40px;
   }
   /*Activité*/
 
@@ -424,6 +444,7 @@ i:hover {
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
+    width: 120vw;
   }
   .heberact {
     margin-top: 50px;
@@ -437,9 +458,16 @@ i:hover {
   .reserviaabso {
     position: absolute;
   }
+  .bordbleu {
+    border-bottom: 1px solid #0065fc;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    border-top: none;
+  }
   /*trouvez.....mobile*/
   .trouvez {
-    width: 188vw;
+    width: 160vw;
   }
   /*en plein centre mobile*/
   .divwidth {
@@ -499,7 +527,7 @@ i:hover {
     width: 150vw;
   }
 
-  /*hébergement*/
+  /*hébergement/ populaire*/
   .grille {
     display: grid;
     width: 105%;
@@ -540,6 +568,11 @@ i:hover {
     align-items: center;
     grid-row: 1;
   }
+  .paddaside {
+    padding: 2.2%;
+    background-color: #f2f2f2;
+    border-radius: 0px;
+  }
   .sizevignette1 {
     background-color: #fff;
     padding: 1%;
@@ -548,6 +581,25 @@ i:hover {
     height: 70%;
     display: flex;
     object-fit: cover;
+  }
+  /*figcaption pop marges*/
+  .paddcaptpop {
+    padding-top: 10px;
+    margin-left: 20px;
+  }
+
+  .starsmargin {
+    margin-top: 130px;
+  }
+  .starsmargin1 {
+    margin-top: 140px;
+  }
+  .starsmargin2 {
+    margin-top: 100px;
+  }
+  .gaptext {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   /*activité*/
