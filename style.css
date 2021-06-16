@@ -422,7 +422,7 @@ i:hover {
     margin: 30px;
     font-weight: bold;
   }
-  .coverlink{
+  .coverlink {
     height: 100%;
     width: auto;
   }
@@ -454,7 +454,8 @@ i:hover {
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-    width: 120vw;
+    width: 180vw;
+    margin-left: -40vw;
   }
   .heberact {
     margin-top: 50px;
@@ -463,17 +464,31 @@ i:hover {
   .inscabsolute {
     position: absolute;
     top: 15px;
-    left: 620px;
+    left: 580px;
   }
   .reserviaabso {
     position: absolute;
   }
   .bordbleu {
-    border-bottom: 1px solid #0065fc;
+    border-bottom: 3px solid #0065fc;
     height: 90px;
     display: flex;
     align-items: center;
+    justify-content: center;
     border-top: none;
+    width: 500px;
+  }
+  .borgrise1 {
+    border-bottom: 3px solid #f2f2f2;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: none;
+    width: 500px;
+  }
+  .écart {
+    margin-right: 0px;
   }
   /*trouvez.....mobile*/
   .trouvez {
@@ -489,10 +504,10 @@ i:hover {
     align-items: center;
     height: 10vh;
     width: 200vw;
-    margin-left: 0vw;
+    margin-left: 4vw;
   }
   .recherche {
-    height: 51px;
+    height: 12vh;
     width: 100px;
     background-color: #0065fc;
     border-top-right-radius: 10px;
@@ -505,7 +520,7 @@ i:hover {
 
   .divchart {
     width: 100px;
-    height: 100px;
+    height: 12vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -513,6 +528,12 @@ i:hover {
     border-bottom-left-radius: 25px;
     background-color: #f2f2f2;
     outline: none;
+  }
+  .input {
+    height: 11vh;
+    width: 100vw;
+    border-style: solid;
+    border-color: #f2f2f2;
   }
 
   /*filtres*/
