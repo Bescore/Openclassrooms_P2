@@ -7,7 +7,7 @@ a {
   text-decoration: none;
 }
 i:hover {
-  color: rgb(218, 108, 108);
+  color: rgb(200, 201, 195);
 }
 .caractere {
   font-family: "Raleway", sans-serif;
@@ -15,7 +15,7 @@ i:hover {
 /*centrer la page*/
 
 .middlepage {
-  margin: 0 80px 0 80px;
+  margin: 20px 80px 0 80px;
 }
 /*flex header pour aligner reservia et la barre nav*/
 .header {
@@ -35,6 +35,11 @@ i:hover {
 }
 /*bordure haute bleu hébergement*/
 .bordbleu {
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+.bordhover:hover{
   border-top: 1px solid #0065fc;
   height: 90px;
   display: flex;
@@ -118,6 +123,9 @@ i:hover {
   border-radius: 30px;
   padding-right: 10px;
   border-left: none;
+}
+.bords:hover{
+  background-color: sandybrown;
 }
 .couleuricon {
   color: #0065fc;
@@ -495,6 +503,13 @@ i:hover {
     justify-content: center;
     border-top: none;
     width: 500px;
+  }
+  .bordhover:hover{
+    border: 0;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .borgrise1 {
     border-bottom: 3px solid #f2f2f2;
