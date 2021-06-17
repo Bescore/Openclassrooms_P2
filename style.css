@@ -15,7 +15,7 @@ i:hover {
 /*centrer la page*/
 
 .middlepage {
-  margin: 20px 80px 0 80px;
+  margin: 0px 80px 0 80px;
 }
 /*flex header pour aligner reservia et la barre nav*/
 .header {
@@ -35,11 +35,12 @@ i:hover {
 }
 /*bordure haute bleu hébergement*/
 .bordbleu {
+  border-top: 1px solid #0065fc;
   height: 90px;
   display: flex;
   align-items: center;
 }
-.bordhover:hover{
+.bordhover:hover {
   border-top: 1px solid #0065fc;
   height: 90px;
   display: flex;
@@ -124,7 +125,7 @@ i:hover {
   padding-right: 10px;
   border-left: none;
 }
-.bords:hover{
+.bords:hover {
   background-color: sandybrown;
 }
 .couleuricon {
@@ -367,12 +368,24 @@ i:hover {
     justify-content: space-between;
     width: 150%;
   }
-  /*FILTRE*/
+  /*FILTRE tablet*/
   .bords2 {
     border: 3px solid #f2f2f2;
-    border-radius: 20px;
+    border-top-right-radius: 30%px;
+    border-bottom-right-radius: 30px;
     width: 200px;
     border-left: none;
+    height: 55px;
+  }
+  .divicon {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #deebff;
+    margin-right: 10px;
   }
   /*bulle hébergement /populaire*/
   .grille {
@@ -504,7 +517,7 @@ i:hover {
     border-top: none;
     width: 500px;
   }
-  .bordhover:hover{
+  .bordhover:hover {
     border: 0;
     height: 30px;
     display: flex;
@@ -615,10 +628,7 @@ i:hover {
     border-left: none;
   }
   .bords2 {
-    border: 5px solid #f2f2f2;
-    border-radius: 30px;
     width: 300px;
-    border-left: none;
   }
   .divicon {
     height: 50px;
