@@ -290,7 +290,7 @@ i:hover {
   width: 95%;
   height: auto;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   margin-bottom: 40px;
 }
 .divmarginin {
@@ -390,7 +390,7 @@ i:hover {
 }
 .margfoot {
   margin-right: 12.5%;
-  margin-left: 5%;
+  margin-left: 4%;
 }
 /*MODIFICATIONS MINEURES DESKTOP*/
 
