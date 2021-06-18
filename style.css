@@ -170,7 +170,7 @@ i:hover {
 .grid {
   display: grid;
   grid-template-columns: 1.9fr 1fr;
-  column-gap: 50px;
+  column-gap: 35px;
   margin: 20px 0px 60px 0px;
   width: auto;
   height: auto;
@@ -238,7 +238,7 @@ i:hover {
   font-weight: bold;
 }
 .paddaside {
-  padding: 2.2%;
+  padding: 2.0%;
   background-color: #f2f2f2;
   border-radius: 20px;
 }
@@ -263,7 +263,7 @@ i:hover {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 0.25fr 1fr 1fr 1fr;
-  height: 96.5%;
+  height: 95.2%;
   width: 70%;
   gap: 20px;
   justify-content: center;
@@ -277,6 +277,13 @@ i:hover {
 .paddcaptpop {
   padding-top: 10px;
 }
+.starsmargin {
+  margin-top: 37px;
+}
+.starsmargin1 {
+  margin-top: 35px;
+}
+
 /*section activité////////////////////////////*****/
 .sectflex {
   display: flex;
@@ -311,6 +318,53 @@ i:hover {
   border-top-left-radius: 20px;
   object-fit: cover;
 }
+.sizeactpomegue{
+  width: 360px;
+  height: 80%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  object-fit:cover;
+  
+  
+}
+.sizeactfrioul{
+  width: 360px;
+  height: 100px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  object-fit: cover;
+}
+.bottomradiusfrioul {
+  border-radius: 20px;
+  background-color: #fff;
+  border-top: none;
+  height: 150px;
+  box-shadow: 0px 0px 3px 0px rgb(151, 147, 147);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  object-fit: cover;
+  
+  
+}
+.bottomradiuspomegue{
+  border-radius: 20px;
+  background-color: #fff;
+  border-top: none;
+  height:330px;
+  box-shadow: 0px 0px 3px 0px rgb(151, 147, 147);
+  display: inline-flex;
+  flex-direction: column;
+  object-fit: cover;
+  
+}
+
+#two{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .between2divs {
   margin-bottom: 50px;
 }
@@ -328,15 +382,15 @@ i:hover {
   display: flex;
   align-items: center;
 }
-/*flexfooter*/
+/*desktop flexfooter*/
 .flexfoot {
   display: flex;
-  width: 95%;
-
+  margin: 0 -4.5% 0 -4.5%;
   background-color: #f2f2f2;
 }
 .margfoot {
-  margin-right: 20%;
+  margin-right: 12.5%;
+  margin-left: 5%;
 }
 /*MODIFICATIONS MINEURES DESKTOP*/
 
@@ -350,7 +404,7 @@ i:hover {
 
 @media only screen and (max-width: 768px) {
   :root {
-    font-size: 0.9rem;
+    font-size: 0.9em;
   }
   .middlepage {
     margin: none;
@@ -451,6 +505,7 @@ i:hover {
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     object-fit: cover;
+    
   }
   .captionmargin {
     margin: 30px;
@@ -473,7 +528,7 @@ i:hover {
 
 @media only screen and (max-width: 375px) {
   :root {
-    font-size: 1.7rem;
+    font-size: 1.7em;
   }
   .middlepage {
     margin: 40px 50px 0px 50px;
