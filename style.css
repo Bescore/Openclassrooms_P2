@@ -706,6 +706,14 @@ i:hover {
     box-shadow: 2px 2px 2px 2px rgb(151, 147, 147);
     height: 85%;
   }
+  .bloccolorgrey {
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 15px;
+    width: auto;
+    margin: auto;
+    height: auto;
+  }
   .gridpopular {
     display: grid;
     grid-template-columns: 1fr;
@@ -851,7 +859,7 @@ i:hover {
     align-items: center;
     font-weight: bold;
     width: 370px;
-    margin-left: -50.7vw;
+    margin-left: -190px;
     height: 30px;
   }
   .heberact {
@@ -1014,7 +1022,7 @@ i:hover {
   .hmarg {
     margin: 20px;
     font-weight: bold;
-    margin-left: -50px;
+    margin-left: 32px;
   }
   .flexpopulaire {
     display: flex;
@@ -1041,7 +1049,14 @@ i:hover {
     margin: 0px;
     width: 100%;
     height: auto;
-    row-gap: 10px;
+    row-gap: 0px;
+  }
+  .bloccolorgrey {
+    background-color: #ffff;
+    border-radius: 20px;
+    padding: 15px;
+    width: 100%;
+    margin-left: -25px;
   }
   .gridpopular {
     display: flow-root;
@@ -1075,6 +1090,10 @@ i:hover {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     object-fit: cover;
+  }
+  .affimarg {
+    margin-left: 35px;
+    margin-bottom: 20px;
   }
   /*figcaption popu marges mobile*/
   .paddcaptpop {
