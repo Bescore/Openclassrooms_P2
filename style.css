@@ -374,6 +374,7 @@ i:hover {
 
 .captionmargin {
   margin: 10px;
+  margin-top: 0px;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -398,7 +399,7 @@ i:hover {
 }
 /*MEDIA QUERYS 1440*/
 
-@media only screen and (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .middlepage {
     margin: 0px 50px 0 50px;
   }
@@ -443,7 +444,7 @@ i:hover {
     height: 619px;
     row-gap: 25px;
     grid-template-columns: 33% 33% 33%;
-    grid-template-rows:33% 33% 10%;
+    grid-template-rows: 33% 33% 10%;
     justify-content: center;
     align-items: center;
     margin-right: 20px;
@@ -594,7 +595,7 @@ i:hover {
 
 /*MEDIA QUERYS TABLET*/
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   :root {
     font-size: 16px;
   }
@@ -727,7 +728,6 @@ i:hover {
     justify-content: center;
     align-items: center;
     margin-left: 10px;
-  
   }
   .paddaside {
     padding: 2.2%;
@@ -854,7 +854,7 @@ i:hover {
 
 /*version mobile*/
 
-@media only screen and (max-width: 375px) {
+@media screen and (max-width: 375px) {
   :root {
     font-size: 12px;
   }
