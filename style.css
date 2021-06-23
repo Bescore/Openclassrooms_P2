@@ -675,7 +675,7 @@ i:hover {
   .grid {
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 50px;
+    row-gap: 30px;
     margin: 20px 0px 60px 0px;
     width: auto;
     justify-content: left;
@@ -707,26 +707,32 @@ i:hover {
     height: 85%;
   }
   .bloccolorgrey {
-    background-color: #f2f2f2;
+    background-color: #ffff;
     border-radius: 20px;
     padding: 15px;
     width: auto;
     margin: auto;
     height: auto;
   }
+  .affimarg {
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
   .gridpopular {
     display: grid;
     grid-template-columns: 1fr;
     height: 100%;
-    width: 560px;
+    width: 500px;
     gap: 20px;
     justify-content: center;
     align-items: center;
+    margin-left: 10px;
+  
   }
   .paddaside {
     padding: 2.2%;
     background-color: #f2f2f2;
-    border-radius: 20px;
+    border-radius: 0px;
   }
   .starsmargin {
     margin-top: 9px;
@@ -735,10 +741,11 @@ i:hover {
     padding-top: 10px;
     margin-left: 20px;
   }
+
   /*Activité tablet*/
   .acth2 {
     width: 90%;
-    margin-left: 80px;
+    margin-left: 100px;
   }
 
   .sectflex {
