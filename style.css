@@ -834,7 +834,12 @@ i:hover {
     border-top-left-radius: 20px;
     object-fit: cover;
   }
-
+  .captionmargin {
+    margin: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
   /*media tablet footer*/
 
   .flexfoot {
@@ -1194,6 +1199,12 @@ i:hover {
     background-color: #ffff;
     border-radius: 20px;
     box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(209, 201, 201);
+  }
+  .captionmargin {
+    margin: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
   }
   /*footer mobile*/
   .flexfoot {
