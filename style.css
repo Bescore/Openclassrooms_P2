@@ -441,8 +441,9 @@ i:hover {
     display: grid;
     width: 867px;
     height: 619px;
-    gap: 0px;
+    row-gap: 25px;
     grid-template-columns: 33% 33% 33%;
+    grid-template-rows:33% 33% 10%;
     justify-content: center;
     align-items: center;
     margin-right: 20px;
@@ -453,6 +454,7 @@ i:hover {
     padding: 15px;
     width: auto;
     margin: auto;
+    height: 600px;
   }
   .grid {
     display: grid;
