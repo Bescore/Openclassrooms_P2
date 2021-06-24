@@ -399,11 +399,11 @@ i:hover {
 }
 .sizevignette:hover {
   cursor: pointer;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .sizevignette1:hover {
   cursor: pointer;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .cover:hover {
   cursor: pointer;
@@ -411,15 +411,15 @@ i:hover {
 }
 .bottomradius:hover {
   cursor: pointer;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .bottomradiusfrioul:hover {
   cursor: pointer;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .bottomradiuspomegue:hover {
   cursor: pointer;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 /*MEDIA QUERYS 1680*/
 @media screen and (max-width: 1680px) {
@@ -691,10 +691,10 @@ i:hover {
 /*MEDIA QUERYS 1420*/
 @media screen and (max-width: 1424px) {
   .bloccolorgrey {
-    background-color: #fff;
+    background-color: #f2f2f2;
     border-radius: 20px;
     padding: 15px;
-    width: auto;
+    width: 590px;
     margin: auto;
     height: auto;
   }
@@ -712,6 +712,7 @@ i:hover {
     grid-template-rows: 1fr;
     justify-content: center;
     align-items: center;
+    margin-left: 20px;
   }
   .grid {
     display: grid;
@@ -764,8 +765,16 @@ i:hover {
     gap: 1vw;
     justify-content: center;
     align-items: center;
+    background-color: none;
+    border-radius: 20px;
+  }
+  .bloccolorgrey {
     background-color: #f2f2f2;
     border-radius: 20px;
+    padding: 15px;
+    width: 700px;
+    margin: auto;
+    height: auto;
   }
   .sectflex {
     display: flex;
@@ -784,7 +793,7 @@ i:hover {
     gap: 20px;
     justify-content: center;
     align-items: center;
-    margin-left: 25px;
+    margin-left: 35px;
   }
   .sizeimg2 {
     width: 250px;
@@ -886,6 +895,7 @@ i:hover {
     gap: 20px;
     justify-content: center;
     align-items: center;
+    margin-left: 0px;
   }
   .grid {
     display: grid;
@@ -1277,6 +1287,7 @@ i:hover {
     justify-content: center;
     align-items: center;
     background-color: #ffff;
+    margin-left: 0px;
   }
 
   .grid {
@@ -1332,7 +1343,7 @@ i:hover {
     margin-left: 35px;
     margin-bottom: 20px;
   }
-  
+
   /*figcaption popu marges mobile*/
   .paddcaptpop {
     padding-top: 10px;
@@ -1362,6 +1373,7 @@ i:hover {
     align-items: center;
     justify-content: center;
     margin-bottom: 40px;
+    margin-left: -10px;
   }
   .sizeact {
     width: 100%;
@@ -1406,7 +1418,7 @@ i:hover {
   }
   .sizeactpomegue {
     width: 294px;
-    height: 80%;
+    height: 120.177px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     object-fit: cover;
@@ -1440,7 +1452,7 @@ i:hover {
     display: flex;
     flex-direction: column;
     align-items: space-between;
-    padding-left: 148px;
+    padding-left: 140px;
     background-color: #f2f2f2;
   }
 }
