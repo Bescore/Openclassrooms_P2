@@ -397,6 +397,89 @@ i:hover {
 .liendeco {
   text-decoration: none;
 }
+.sizevignette:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.sizevignette1:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.cover:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.bottomradius:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.bottomradiusfrioul:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.bottomradiuspomegue:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+/*MEDIA QUERYS 1685*/
+@media screen and (max-width: 1680px){
+  .bloccolorgrey {
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 15px;
+    width: auto;
+    margin: auto;
+    height: auto;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 1220px;
+  }
+  .gridpopular {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.25fr 1fr 1fr 1fr;
+    height: 850px;
+    width: 400px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grille {
+    display: grid;
+    width: 730px;
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 1vw;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    margin: 20px 0px 60px 0px;
+    width: auto;
+    justify-content: left;
+  }
+  .sectflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: auto;
+    margin-bottom: 40px;
+  }
+
+  .acth2 {
+    width: auto;
+    margin-left: 0px;
+  }
+
+}
 /*MEDIA QUERYS 1440*/
 
 @media screen and (max-width: 1440px) {
@@ -628,6 +711,8 @@ i:hover {
   .sectflex {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     width: 1000px;
     height: auto;
     margin-bottom: 40px;
