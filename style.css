@@ -452,6 +452,7 @@ i:hover {
     width: 730px;
     height: auto;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0fr;
     gap: 1vw;
     justify-content: center;
     align-items: center;
@@ -598,7 +599,7 @@ i:hover {
     width: 100%;
     height: auto;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     margin-bottom: 40px;
   }
   .sizeact1 {
@@ -695,7 +696,7 @@ i:hover {
     width: 530px;
     height: auto;
     grid-template-columns: 1fr 1fr;
-    gap: 1vw;
+    grid-template-rows: 1fr;
     justify-content: center;
     align-items: center;
   }
@@ -727,19 +728,24 @@ i:hover {
   .header {
     display: flex;
     justify-content: space-between;
-    width: 740px;
+    width: 753px;
+  }
+  .flexfiltrage {
+    display: flow-root;
+    align-items: center;
+    flex-wrap: wrap;
   }
   .grid {
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 30px;
     margin: 20px 0px 60px 0px;
-    width: 200px;
-    justify-content: left;
+    width: 800px;
+    justify-content: center;
   }
   .grille {
     display: grid;
-    width: 630px;
+    width: 730px;
     height: auto;
     grid-template-columns: 1fr 1fr;
     gap: 1vw;
@@ -753,7 +759,7 @@ i:hover {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 700px;
+    width: 800px;
     height: auto;
     margin-bottom: 40px;
   }
@@ -761,14 +767,18 @@ i:hover {
     display: grid;
     grid-template-columns: 1fr;
     height: 100%;
-    width: 605px;
+    width: 695px;
     gap: 20px;
     justify-content: center;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 25px;
   }
   .sizeimg2 {
     width: 250px;
+  }
+  .acth2 {
+    width: 90%;
+    margin-left: 40px;
   }
 }
 /*MEDIA QUERYS TABLET*/
@@ -845,9 +855,9 @@ i:hover {
   .grille {
     display: grid;
     width: 530px;
-    height: auto;
     grid-template-columns: 1fr;
-    gap: 1vw;
+    grid-template-rows: 1fr;
+    gap: 20px;
     justify-content: center;
     align-items: center;
   }
@@ -1042,6 +1052,7 @@ i:hover {
   /*query  mobile header*/
   .header {
     display: flow-root;
+    width: auto;
   }
   .flexnav {
     display: flex;
@@ -1230,6 +1241,7 @@ i:hover {
     grid-template-rows: 1fr;
     justify-content: center;
     align-items: center;
+    background-color: #ffff;
   }
 
   .grid {
