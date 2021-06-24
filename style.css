@@ -397,32 +397,32 @@ i:hover {
 .liendeco {
   text-decoration: none;
 }
-.sizevignette:hover{
+.sizevignette:hover {
   cursor: pointer;
   transform: scale(1.2);
 }
-.sizevignette1:hover{
+.sizevignette1:hover {
   cursor: pointer;
   transform: scale(1.2);
 }
-.cover:hover{
+.cover:hover {
   cursor: pointer;
   transform: scale(1.1);
 }
-.bottomradius:hover{
+.bottomradius:hover {
   cursor: pointer;
   transform: scale(1.2);
 }
-.bottomradiusfrioul:hover{
+.bottomradiusfrioul:hover {
   cursor: pointer;
   transform: scale(1.2);
 }
-.bottomradiuspomegue:hover{
+.bottomradiuspomegue:hover {
   cursor: pointer;
   transform: scale(1.2);
 }
 /*MEDIA QUERYS 1685*/
-@media screen and (max-width: 1680px){
+@media screen and (max-width: 1680px) {
   .bloccolorgrey {
     background-color: #f2f2f2;
     border-radius: 20px;
@@ -478,7 +478,6 @@ i:hover {
     width: auto;
     margin-left: 0px;
   }
-
 }
 /*MEDIA QUERYS 1440*/
 
@@ -721,6 +720,55 @@ i:hover {
   .acth2 {
     width: auto;
     margin-left: 0px;
+  }
+}
+/*MEDIA QUERYS 960*/
+@media screen and (max-width: 960px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 740px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+    margin: 20px 0px 60px 0px;
+    width: 200px;
+    justify-content: left;
+  }
+  .grille {
+    display: grid;
+    width: 630px;
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 1vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+  }
+  .sectflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .gridpopular {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+    width: 605px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .sizeimg2 {
+    width: 250px;
   }
 }
 /*MEDIA QUERYS TABLET*/
