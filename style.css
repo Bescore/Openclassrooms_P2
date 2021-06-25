@@ -1086,7 +1086,7 @@ i:hover {
 
 @media screen and (max-width: 375px) {
   :root {
-    font-size: 16px;
+    font-size: 14px;
   }
   .middlepage {
     margin: 0;
@@ -1148,7 +1148,7 @@ i:hover {
   /*trouvez.....mobile*/
   .trouvez {
     width: 90vw;
-    margin-top: 9vh;
+    margin-top: 6vh;
     margin-left: 20px;
   }
   /*en plein centre mobile*/
@@ -1258,7 +1258,7 @@ i:hover {
   /*plus de 500...mobile*/
 
   .widthupgrade {
-    width: 100vw;
+    width: 90vw;
     margin-left: 20px;
   }
 
@@ -1349,13 +1349,13 @@ i:hover {
   }
 
   .starsmargin {
-    margin-top: 50px;
+    margin-top: 65px;
   }
   .starsmargin1 {
     margin-top: 50px;
   }
   .starsmargin2 {
-    margin-top: 30px;
+    margin-top: 50px;
   }
 
   /*activité mobile*/
@@ -1438,7 +1438,7 @@ i:hover {
   }
   .captionmargin {
     margin: 10px;
-    margin-top: -5fottpx;
+    margin-top: -1px;
     font-weight: bold;
     display: flex;
     align-items: center;
