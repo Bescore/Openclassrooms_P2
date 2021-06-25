@@ -1227,9 +1227,10 @@ i:hover {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
-    width: 340px;
+    width: 290px;
     margin-left: -25px;
     margin-bottom: -10px;
+    
   }
 
   .marginlist {
@@ -1264,17 +1265,18 @@ i:hover {
 
   /*hébergement/ populaire mobile*/
   .hmarg {
-    margin: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     font-weight: bold;
-    margin-left: 32px;
+    margin-left: -18px;
   }
   .flexpopulaire {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .grille {
     display: grid;
@@ -1301,14 +1303,23 @@ i:hover {
     background-color: #ffff;
     border-radius: 20px;
     padding: 15px;
-    width: 100%;
-    margin-left: -25px;
+    width: 290px;
+  }
+  .sizevignette {
+    background-color: #fff;
+    padding: 1%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 0px rgb(209, 201, 201);
+    width: 290px;
+    height: 173.782;
+    display: flex;
+    flex-direction: column;
   }
   .gridpopular {
     display: flow-root;
-    width: 380px;
-    height: 100%;
-    margin-left: -20px;
+    width: 358px;
+    height: 470px;
+    margin-left: 0px;
     grid-row: 1;
     grid-gap: 0;
   }
@@ -1331,7 +1342,7 @@ i:hover {
     margin-top: 30px;
   }
   .sizeimg2 {
-    width: 129px;
+    width: 90px;
     height: 100%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -1349,13 +1360,13 @@ i:hover {
   }
 
   .starsmargin {
-    margin-top: 65px;
+    margin-top: 40px;
   }
   .starsmargin1 {
-    margin-top: 50px;
+    margin-top: 25px;
   }
   .starsmargin2 {
-    margin-top: 50px;
+    margin-top: 25px;
   }
 
   /*activité mobile*/
@@ -1371,7 +1382,7 @@ i:hover {
     align-items: center;
     justify-content: center;
     margin-bottom: 40px;
-    margin-left: -10px;
+    margin-left: 2px;
   }
   .sizeact {
     width: 100%;
@@ -1446,7 +1457,7 @@ i:hover {
   /*footer mobile*/
   .flexfoot {
     display: flow-root;
-    width: 350px;
+    width: 355px;
     display: flex;
     flex-direction: column;
     padding-left: 140px;
