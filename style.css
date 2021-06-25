@@ -1086,7 +1086,7 @@ i:hover {
 
 @media screen and (max-width: 375px) {
   :root {
-    font-size: 12px;
+    font-size: 16px;
   }
   .middlepage {
     margin: 0;
@@ -1147,13 +1147,13 @@ i:hover {
   }
   /*trouvez.....mobile*/
   .trouvez {
-    width: 70vw;
+    width: 90vw;
     margin-top: 9vh;
     margin-left: 20px;
   }
   /*en plein centre mobile*/
   .divwidth {
-    width: 225px;
+    width: 300px;
     margin-left: 20px;
   }
   /*searchmobile*/
@@ -1193,12 +1193,13 @@ i:hover {
     width: 250px;
     border-style: solid;
     border-color: #f2f2f2;
+    outline: none;
   }
   ::placeholder {
-    font-weight: bold;
-    color: black;
+    font-weight: bolder;
+    color: rgb(2, 0, 0);
     font-size: 1.1rem;
-    padding-left: 24px;
+    padding-left: 40px;
   }
 
   .iconmagny[value="Rechercher"] {
@@ -1227,7 +1228,7 @@ i:hover {
     list-style: none;
     flex-wrap: wrap;
     width: 340px;
-    margin-left: -40px;
+    margin-left: -25px;
     margin-bottom: -10px;
   }
 
@@ -1242,7 +1243,7 @@ i:hover {
     height: 40px;
   }
   .bords2 {
-    width: 170px;
+    width: 190px;
   }
   .divicon {
     height: 40px;
@@ -1257,7 +1258,7 @@ i:hover {
   /*plus de 500...mobile*/
 
   .widthupgrade {
-    width: 70vw;
+    width: 100vw;
     margin-left: 20px;
   }
 
