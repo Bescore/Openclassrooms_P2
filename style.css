@@ -165,7 +165,7 @@ i:hover {
   background-color: #fff;
   padding: 1%;
   border-radius: 20px;
-  box-shadow: 0px 0px 3px 0px rgb(209, 201, 201);
+  box-shadow: 0px 3px 4px 0px #f2f2f2;
 }
 
 .grid {
@@ -247,7 +247,7 @@ i:hover {
   background-color: #fff;
   padding: 1%;
   border-radius: 20px;
-  box-shadow: 0px 0px 3px 0px rgb(209, 201, 201);
+  box-shadow: 0px 3px 4px 0px #f2f2f2;
   height: 125px;
   display: flex;
   object-fit: cover;
@@ -310,7 +310,7 @@ i:hover {
   height: auto;
   background-color: #ffff;
   border-radius: 20px;
-  box-shadow: 0px 0px 3px 0px rgb(151, 147, 147);
+  box-shadow: 0px 3px 4px 0px #f2f2f2;
 }
 .sizeact1 {
   width: 360px;
@@ -564,7 +564,7 @@ i:hover {
     background-color: #fff;
     padding: 1%;
     border-radius: 20px;
-    box-shadow: 0px 0px 3px 0px rgb(209, 201, 201);
+    box-shadow: 0px 3px 4px 0px #f2f2f2;
     width: 232px;
     height: 192px;
   }
@@ -678,7 +678,7 @@ i:hover {
     height: 462px;
     background-color: #ffff;
     border-radius: 20px;
-    box-shadow: 0px 0px 3px 0px rgb(151, 147, 147);
+    box-shadow: 0px 3px 4px 0px #f2f2f2;
   }
   .captionmargin {
     margin: 10px;
@@ -906,7 +906,7 @@ i:hover {
     background-color: #fff;
     padding: 1%;
     border-radius: 20px;
-    box-shadow: 0px 0px 3px 0px rgb(209, 201, 201);
+    box-shadow: 0px 3px 4px 0px #f2f2f2;
     width: auto;
     height: auto;
     display: flex;
@@ -925,7 +925,7 @@ i:hover {
     background-color: #fff;
     padding: 1%;
     border-radius: 20px;
-    box-shadow: 0px 0px 3px 0px rgb(209, 201, 201);
+    box-shadow: 0px 3px 4px 0px #f2f2f2;
     height: 85%;
   }
   .bloccolorgrey {
@@ -1016,7 +1016,7 @@ i:hover {
     height: 179px;
     background-color: #ffff;
     border-radius: 20px;
-    box-shadow: 0px 0px 3px 0px rgb(209, 201, 201);
+    box-shadow: 0px 3px 4px 0px #f2f2f2;
   }
   .bottomradiusfrioul {
     border-radius: 20px;
@@ -1230,7 +1230,6 @@ i:hover {
     width: 290px;
     margin-left: -25px;
     margin-bottom: -10px;
-    
   }
 
   .marginlist {
@@ -1265,18 +1264,18 @@ i:hover {
 
   /*hébergement/ populaire mobile*/
   .hmarg {
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 15px;
     font-weight: bold;
-    margin-left: -18px;
+    margin-left: -8px;
   }
   .flexpopulaire {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
   .grille {
     display: grid;
@@ -1308,8 +1307,8 @@ i:hover {
     background-color: #fff;
     padding: 0.5%;
     border-radius: 20px;
-    box-shadow: 0px 0px 3px 0px rgb(209, 201, 201);
-    width: 278px;
+    box-shadow: 0px 3px 4px 0px #f2f2f2;
+    width: 274px;
     height: 124.633;
     display: flex;
     flex-direction: column;
@@ -1331,7 +1330,7 @@ i:hover {
     background-color: #fff;
     padding: 1%;
     border-radius: 20px;
-    box-shadow: 0px 0px 3px 0px rgb(209, 201, 201);
+    box-shadow: 0px 3px 4px 0px #f2f2f2;
     height: 25%;
     display: flex;
     object-fit: cover;
@@ -1355,14 +1354,14 @@ i:hover {
   /*figcaption popu marges mobile*/
   .paddcaptpop {
     padding-top: 10px;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .starsmargin {
     margin-top: 40px;
   }
   .starsmargin1 {
-    margin-top: 25px;
+    margin-top: 40px;
   }
   .starsmargin2 {
     margin-top: 25px;
@@ -1411,7 +1410,7 @@ i:hover {
     border-top: none;
     height: 177.177px;
     width: 294px;
-    box-shadow: 0px 0px 3px 0px rgb(209, 201, 201);
+    box-shadow: 0px 3px 4px 0px #f2f2f2;
     object-fit: cover;
   }
   .bottomradiusfrioul {
@@ -1420,7 +1419,7 @@ i:hover {
     border-top: none;
     height: 177.177px;
     width: 294px;
-    box-shadow: 0px 0px 3px 0px rgb(209, 201, 201);
+    box-shadow: 0px 3px 4px 0px #f2f2f2;
     display: flex;
     object-fit: cover;
   }
@@ -1444,7 +1443,7 @@ i:hover {
     height: auto;
     background-color: #ffff;
     border-radius: 20px;
-    box-shadow: 0px 0px 3px 0px rgb(209, 201, 201);
+    box-shadow: 0px 3px 4px 0px #f2f2f2;
   }
   .captionmargin {
     margin: 10px;
@@ -1459,7 +1458,7 @@ i:hover {
     width: 355px;
     display: flex;
     flex-direction: column;
-    padding-left: 140px;
+    padding-left: 145px;
     background-color: #f2f2f2;
   }
 }
