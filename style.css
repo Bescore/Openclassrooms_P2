@@ -1349,13 +1349,13 @@ i:hover {
   }
 
   .starsmargin {
-    margin-top: 80px;
+    margin-top: 50px;
   }
   .starsmargin1 {
-    margin-top: 80px;
+    margin-top: 50px;
   }
   .starsmargin2 {
-    margin-top: 60px;
+    margin-top: 30px;
   }
 
   /*activité mobile*/
@@ -1438,9 +1438,11 @@ i:hover {
   }
   .captionmargin {
     margin: 10px;
+    margin-top: -5px;
     font-weight: bold;
     display: flex;
     align-items: center;
+    
   }
   /*footer mobile*/
   .flexfoot {
