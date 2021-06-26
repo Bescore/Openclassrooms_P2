@@ -144,8 +144,8 @@ i:hover {
 .flexlogement {
   display: flex;
   align-items: center;
-  
 }
+
 .alignicon {
   display: flex;
   align-items: center;
@@ -161,7 +161,7 @@ i:hover {
 }
 .ecart500 {
   margin-left: 10px;
-  width: 290px;
+  width: auto;
 }
 /*hébergement///////////////////////////////////////////////////*/
 .sizeimg {
@@ -450,6 +450,10 @@ i:hover {
     display: flex;
     justify-content: space-between;
     width: 1220px;
+  }
+  .ecart500 {
+    margin-left: 10px;
+    width: auto;
   }
   .gridpopular {
     display: grid;
@@ -776,6 +780,10 @@ i:hover {
     align-items: center;
     flex-wrap: wrap;
   }
+  .ecart500 {
+    margin-left: 10px;
+    width: auto;
+  }
   .grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -909,6 +917,10 @@ i:hover {
     justify-content: center;
     background-color: #deebff;
     margin-right: 10px;
+  }
+  .ecart500 {
+    margin-left: 10px;
+    width: auto;
   }
   /*bulle hébergement /populaire tablet*/
   .hmarg {
