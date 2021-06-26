@@ -1,7 +1,6 @@
 /*La police de caractère*/
 * {
   font-family: "Raleway", sans-serif;
-  box-sizing: border-box;
 }
 a {
   color: black;
@@ -73,7 +72,7 @@ i:hover {
   border-style: solid;
   border-color: #f2f2f2;
   outline: none;
-  
+  box-sizing: border-box;
 }
 ::placeholder {
   font-weight: bold;
@@ -496,9 +495,9 @@ i:hover {
   .starsmargin2 {
     margin-top: 20px;
   }
-  .flexfoot{
+  .flexfoot {
     margin-left: -80px;
-    margin-right: -80px; 
+    margin-right: -80px;
   }
 }
 /*MEDIA QUERYS 1440*/
@@ -525,7 +524,7 @@ i:hover {
     background-color: #f2f2f2;
     outline: none;
   }
-  .recherche{
+  .recherche {
     height: 47px;
   }
   .input {
@@ -534,7 +533,7 @@ i:hover {
     border-style: solid;
     border-color: #f2f2f2;
     outline: none;
-    
+    box-sizing:border-box;
   }
   /*1440 filtres*/
   .flexlist {
@@ -625,7 +624,7 @@ i:hover {
     justify-content: left;
     margin-bottom: 40px;
   }
-  .four{
+  .four {
     display: flex;
   }
   .sizeact1 {
@@ -744,11 +743,10 @@ i:hover {
     height: auto;
     margin-bottom: 40px;
   }
-  .four{
+  .four {
     display: flex;
-
   }
-  
+
   .acth2 {
     width: auto;
     margin-left: 400px;
@@ -801,9 +799,8 @@ i:hover {
     height: auto;
     margin-bottom: 40px;
   }
-  .four{
+  .four {
     display: flow-root;
-
   }
   .gridpopular {
     display: grid;
@@ -1014,7 +1011,7 @@ i:hover {
     margin-right: -100px;
     margin-top: 40px;
   }
-  
+
   .sizeact1 {
     width: 100%;
     height: 100px;
@@ -1218,7 +1215,7 @@ i:hover {
     border-style: solid;
     border-color: #f2f2f2;
     outline: none;
-    
+    box-sizing: border-box;
   }
   ::placeholder {
     font-weight: bolder;
@@ -1252,10 +1249,8 @@ i:hover {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
-    width: 290px;
     margin-left: -25px;
     margin-bottom: -10px;
-    box-sizing: initial;
   }
 
   .marginlist {
