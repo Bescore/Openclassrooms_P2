@@ -1255,6 +1255,7 @@ i:hover {
     width: 290px;
     margin-left: -25px;
     margin-bottom: -10px;
+    box-sizing: initial;
   }
 
   .marginlist {
