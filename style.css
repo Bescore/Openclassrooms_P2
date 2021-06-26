@@ -279,6 +279,7 @@ i:hover {
 }
 .paddcaptpop {
   padding-top: 10px;
+  margin-left: 20px;
 }
 .starsmargin {
   margin-top: 37px;
@@ -487,7 +488,7 @@ i:hover {
     margin-left: 20px;
   }
   .starsmargin {
-    margin-top: 20px;
+    margin-top: 37px;
   }
   .starsmargin1 {
     margin-top: 20px;
@@ -1238,12 +1239,6 @@ i:hover {
   .filmarg {
     margin-left: 20px;
     width: 200px;
-  }
-  .flexfiltrage1 {
-    display: flex;
-    align-items: center;
-    margin: 8px;
-    font-weight: bold;
   }
   .flexlist {
     display: flex;
