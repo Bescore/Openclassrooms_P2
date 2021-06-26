@@ -71,6 +71,7 @@ i:hover {
   height: 46px;
   border-style: solid;
   border-color: #f2f2f2;
+  outline: none;
 }
 ::placeholder {
   font-weight: bold;
@@ -527,6 +528,7 @@ i:hover {
     width: 235px;
     border-style: solid;
     border-color: #f2f2f2;
+    outline: none;
   }
   /*1440 filtres*/
   .flexlist {
