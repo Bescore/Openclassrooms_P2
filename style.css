@@ -1,6 +1,7 @@
 /*La police de caractère*/
 * {
   font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
 }
 a {
   color: black;
@@ -58,7 +59,7 @@ i:hover {
 }
 .divchart {
   width: 60px;
-  height: 54px;
+  height: 49px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,7 +69,7 @@ i:hover {
   outline: none;
 }
 .input {
-  height: 46px;
+  height: 49px;
   border-style: solid;
   border-color: #f2f2f2;
   outline: none;
@@ -524,8 +525,11 @@ i:hover {
     background-color: #f2f2f2;
     outline: none;
   }
+  .recherche{
+    height: 47px;
+  }
   .input {
-    height: 42px;
+    height: 47px;
     width: 235px;
     border-style: solid;
     border-color: #f2f2f2;
@@ -850,7 +854,7 @@ i:hover {
 
   /* recherche tablet*/
   .recherche {
-    height: 50px;
+    height: 47px;
     width: 100px;
     background-color: #0065fc;
     border-top-right-radius: 10px;
@@ -1209,7 +1213,7 @@ i:hover {
     outline: none;
   }
   .input {
-    height: 5.8vh;
+    height: 46px;
     width: 250px;
     border-style: solid;
     border-color: #f2f2f2;
