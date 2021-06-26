@@ -143,15 +143,19 @@ i:hover {
 /* flex plus de 500 logements*/
 .flexlogement {
   display: flex;
+  align-items: center;
 }
 .alignicon {
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #f2f2f2;
 }
 .iconinfo {
-  color: #fff;
-  background-color: #0065fc;
-  border-radius: 50%;
+  color: #0065fc;
 }
 .ecart500 {
   margin-left: 10px;
