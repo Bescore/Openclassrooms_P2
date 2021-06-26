@@ -1303,6 +1303,10 @@ i:hover {
     width: 330px;
     margin-left: 20px;
   }
+  .ecart500 {
+    margin-left: 10px;
+    width: 290px;
+  }
 
   /*hébergement/ populaire mobile*/
   .hmarg {
