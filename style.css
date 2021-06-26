@@ -179,6 +179,10 @@ i:hover {
   height: auto;
   grid-row: 2;
 }
+.affimarg {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
 
 .bloccolorgrey {
   background-color: #f2f2f2;
