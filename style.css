@@ -1158,6 +1158,9 @@ i:hover {
     margin-top: 10px;
     margin-left: -10px;
   }
+  .bordbleu {
+    border-top: none;
+  }
   .margmobile {
     margin-left: 180px;
   }
