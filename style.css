@@ -750,6 +750,20 @@ i:hover {
     width: auto;
     justify-content: left;
   }
+  .gridpopular {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 98%;
+    width: 350px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+  }
+  .affimarg {
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
   .sectflex {
     display: flex;
     flex-wrap: wrap-reverse;
@@ -776,7 +790,7 @@ i:hover {
     width: 753px;
   }
   .flexfiltrage {
-    display: flow-root;
+    display: initial;
     align-items: center;
     flex-wrap: wrap;
   }
@@ -820,7 +834,7 @@ i:hover {
     margin-bottom: 40px;
   }
   .four {
-    display: flow-root;
+    display: initial;
   }
   .gridpopular {
     display: grid;
@@ -886,7 +900,7 @@ i:hover {
 
   /*FILTRE tablet*/
   .flexfiltrage {
-    display: flow-root;
+    display: initial;
     align-items: center;
     flex-wrap: wrap;
   }
@@ -1138,7 +1152,7 @@ i:hover {
   }
   /*query  mobile header*/
   .header {
-    display: flow-root;
+    display: initial;
     width: auto;
   }
   .flexnav {
@@ -1359,7 +1373,7 @@ i:hover {
     flex-direction: column;
   }
   .gridpopular {
-    display: flow-root;
+    display: initial;
     width: 370px;
     height: 560px;
     margin-left: 0px;
@@ -1499,7 +1513,7 @@ i:hover {
   }
   /*footer mobile*/
   .flexfoot {
-    display: flow-root;
+    display: initial;
     width: 375px;
     display: flex;
     flex-direction: column;
