@@ -1152,7 +1152,7 @@ i:hover {
     justify-content: space-evenly;
     align-items: center;
     font-weight: bold;
-    width: AUTO;
+    width: 460px;
     margin-left: 0;
     height: AUTO;
     margin-top: 10px;
@@ -1171,11 +1171,15 @@ i:hover {
     background-color: #ffff;
     margin-left: -3px;
   }
+  .bloccolorgrey{
+    width: auto;
+    padding: 0;
+  }
   .gridpopular {
     display: grid;
     width: 400px;
     height: AUTO;
-    margin-left: 20px;
+    margin-left: 0px;
   }
   .sectflex {
     display: flex;
@@ -1185,31 +1189,34 @@ i:hover {
     align-items: center;
     justify-content: center;
     margin-bottom: 40px;
-    margin-left: 20px;
+    margin-left: 0px;
   }
   .bottomradius {
-    width: 352px;
+    width: 340px;
   }
   .cover {
-    width: 352px;
+    width: 340px;
   }
   .bottomradiusfrioul {
-    width: 352px;
+    width: 340px;
   }
   .bottomradiuspomegue {
-    width: 352px;
+    width: 340px;
   }
   .sizeact {
-    width: 352px;
+    width: 340px;
   }
   .sizeactfrioul {
-    width: 352px;
+    width: 340px;
   }
   .sizeactpomegue {
-    width: 352px;
+    width: 340px;
   }
   .margfoot {
-    margin-left: 40px;
+    margin-left: 15px;
+  }
+  .flexfoot{
+    width: auto;
   }
 }
 /*VERSION MOBILE*/
