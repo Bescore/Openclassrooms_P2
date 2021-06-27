@@ -755,10 +755,9 @@ i:hover {
     grid-template-columns: 1fr;
     height: 98%;
     width: 350px;
-    gap: 20px;
+    gap: 0px;
     justify-content: center;
     align-items: center;
-    margin-left: 35px;
   }
   .affimarg {
     margin-left: 40px;
