@@ -154,7 +154,6 @@ i:hover {
   height: 30px;
   border-radius: 50%;
   border: 1px solid #f2f2f2;
-  
 }
 .iconinfo {
   color: #0065fc;
@@ -549,7 +548,7 @@ i:hover {
     border-style: solid;
     border-color: #f2f2f2;
     outline: none;
-    box-sizing:border-box;
+    box-sizing: border-box;
   }
   /*1440 filtres*/
   .flexlist {
@@ -631,7 +630,7 @@ i:hover {
   .starsmargin1 {
     margin-top: 10px;
   }
-  /*ACTIVITE 1440/////////////////////////////////*/
+  /* 1440 ACTIVITE/////////////////////////////////*/
   .sectflex {
     display: flex;
     width: 100%;
@@ -639,9 +638,10 @@ i:hover {
     align-items: center;
     justify-content: left;
     margin-bottom: 40px;
+    flex-wrap: nowrap;
   }
   .four {
-    display: flex;
+    display: initial;
   }
   .sizeact1 {
     width: 300px;
@@ -1139,8 +1139,80 @@ i:hover {
     margin-left: -120px;
   }
 }
-
-/*version mobile*/
+/* VERSION 500PX */
+@media screen and (max-width: 500px) {
+  .middlepage {
+    margin: 20px 20px 0px 20px;
+  }
+  .header {
+    display: initial;
+  }
+  .flexnav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+    width: AUTO;
+    margin-left: 0;
+    height: AUTO;
+    margin-top: 10px;
+  }
+  .margmobile {
+    margin-left: 180px;
+  }
+  .grille {
+    display: grid;
+    width: 400px;
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    margin-left: -3px;
+  }
+  .gridpopular {
+    display: grid;
+    width: 400px;
+    height: AUTO;
+    margin-left: 20px;
+  }
+  .sectflex {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-left: 20px;
+  }
+  .bottomradius {
+    width: 352px;
+  }
+  .cover {
+    width: 352px;
+  }
+  .bottomradiusfrioul {
+    width: 352px;
+  }
+  .bottomradiuspomegue {
+    width: 352px;
+  }
+  .sizeact {
+    width: 352px;
+  }
+  .sizeactfrioul {
+    width: 352px;
+  }
+  .sizeactpomegue {
+    width: 352px;
+  }
+  .margfoot {
+    margin-left: 40px;
+  }
+}
+/*VERSION MOBILE*/
 
 @media screen and (max-width: 375px) {
   :root {
@@ -1276,7 +1348,7 @@ i:hover {
     margin-left: 20px;
     width: 200px;
   }
-  .flexfiltrage1{
+  .flexfiltrage1 {
     margin: 8px;
   }
   .flexlist {
