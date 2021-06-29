@@ -1151,18 +1151,20 @@ i:hover {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    justify-content: center;
     font-weight: bold;
-    width: 460px;
+    width: 200px;
     margin-left: 0;
     height: AUTO;
-    margin-top: 10px;
-    margin-left: -10px;
+    margin-top: 0px;
+    margin-left: 70px;
   }
+
   .bordbleu {
     border-top: none;
   }
   .margmobile {
-    margin-left: 180px;
+    margin-left: 160px;
   }
   .grille {
     display: grid;
