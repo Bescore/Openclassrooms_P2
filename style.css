@@ -4,7 +4,7 @@
 }
 a {
   color: black;
-  text-decoration: none;
+  text-decoration: none; 
 }
 i:hover {
   color: rgb(200, 201, 195);
@@ -21,7 +21,7 @@ i:hover {
 .header {
   display: flex;
   justify-content: space-between;
-  width: 1568px;
+  width: 1560px;
 }
 /*flex la barre nav pour aligner heberg. s'inscr. act. et les écarter les uns des autres*/
 .flexnav {
@@ -174,12 +174,14 @@ i:hover {
   padding: 1%;
   border-radius: 20px;
   box-shadow: 0px 3px 4px 0px #f2f2f2;
+  margin: 0px;
+  
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 1.9fr 1fr;
-  column-gap: 50px;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 25px;
   margin: 20px 0px 60px 0px;
   width: auto;
   height: auto;
@@ -196,6 +198,7 @@ i:hover {
   padding: 15px;
   width: 1100px;
   margin: auto;
+  height: 98%;
 }
 
 .hmarg {
@@ -208,7 +211,7 @@ i:hover {
   height: auto;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 1vw;
+  gap: 40px;
   justify-content: center;
   align-items: center;
 }
@@ -266,7 +269,7 @@ i:hover {
 }
 
 .sizeimg2 {
-  width: 129px;
+  width: 100px;
   height: 100%;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -276,8 +279,8 @@ i:hover {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 0.25fr 1fr 1fr 1fr;
-  height: 95.4%;
-  width: 400px;
+  height: 100%;
+  width: 380px;
   gap: 20px;
   justify-content: center;
   align-items: center;
@@ -306,6 +309,7 @@ i:hover {
   align-items: center;
   justify-content: space-around;
   margin-bottom: 40px;
+  margin-left: 30px;
 }
 .divmarginin {
   margin: -5px;
@@ -458,7 +462,7 @@ i:hover {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.25fr 1fr 1fr 1fr;
-    height: 850px;
+    height: 760px;
     width: 400px;
     gap: 20px;
     justify-content: center;
@@ -525,7 +529,7 @@ i:hover {
   .header {
     display: flex;
     justify-content: space-between;
-    width: 1294px;
+    width: 1296px;
   }
   /*search1440*/
   .divchart {
@@ -562,12 +566,12 @@ i:hover {
     display: grid;
     width: 867px;
     height: 619px;
-    row-gap: 25px;
+    row-gap: 40px;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 33% 33% 10%;
     justify-content: center;
     align-items: center;
-    margin-right: 20px;
+    margin-left: 26px;
   }
   .bloccolorgrey {
     background-color: #f2f2f2;
@@ -580,7 +584,7 @@ i:hover {
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 26px;
+    column-gap: 35px;
     margin: 20px 0px 60px 0px;
     width: 100%;
     height: auto;
@@ -595,7 +599,7 @@ i:hover {
     height: 192px;
   }
   .affimarg {
-    margin-left: 20px;
+    margin-left: 5px;
     margin-bottom: 20px;
   }
 
@@ -638,6 +642,7 @@ i:hover {
     align-items: center;
     justify-content: left;
     margin-bottom: 40px;
+    margin-left: 10px;
     flex-wrap: nowrap;
   }
   .four {
@@ -714,6 +719,10 @@ i:hover {
     margin: 10px;
     margin-top: -5px;
     font-weight: bold;
+  }
+  /*footer 1440*/
+  .margfoot {
+    margin-left: 71px;
   }
 }
 /*MEDIA QUERYS 1424*/
@@ -810,7 +819,7 @@ i:hover {
     width: 730px;
     height: auto;
     grid-template-columns: 1fr 1fr;
-    gap: 1vw;
+    gap: 4vw;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
@@ -943,7 +952,7 @@ i:hover {
   }
   .grille {
     display: grid;
-    width: 530px;
+    width: 452px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     gap: 20px;
@@ -992,6 +1001,7 @@ i:hover {
     width: auto;
     margin: auto;
     height: auto;
+    margin-left: 40px;
   }
   .affimarg {
     margin-left: 70px;
@@ -1005,7 +1015,7 @@ i:hover {
     gap: 20px;
     justify-content: center;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 0px;
   }
   .paddaside {
     padding: 2.2%;
@@ -1027,6 +1037,9 @@ i:hover {
   }
   .starsmargin2 {
     margin-top: 90px;
+  }
+  .margfoot{
+    margin-left: 35px;
   }
 
   /*Activité tablet*/
@@ -1180,6 +1193,16 @@ i:hover {
   .bloccolorgrey{
     width: auto;
     padding: 0;
+    margin-right: 0px;
+  }
+  .sizevignette {
+    background-color: #fff;
+    padding: 0.5%;
+    border-radius: 20px;
+    box-shadow: 1px 3px 4px 2px #f2f2f2;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
   }
   .gridpopular {
     display: grid;
@@ -1418,8 +1441,9 @@ i:hover {
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-    padding-left: 25px;
+    padding-left:30px;
     padding-right: 25px;
+    width: 270px;
   }
   .grille {
     display: grid;
@@ -1441,12 +1465,6 @@ i:hover {
     height: auto;
     row-gap: 0px;
   }
-  .bloccolorgrey {
-    background-color: #ffff;
-    border-radius: 20px;
-    padding: 15px;
-    width: 290px;
-  }
   .sizevignette {
     background-color: #fff;
     padding: 0.5%;
@@ -1456,6 +1474,15 @@ i:hover {
     display: flex;
     flex-direction: column;
   }
+  .bloccolorgrey {
+    background-color: #ffff;
+    border-radius: 20px;
+    padding: 15px;
+    width: 290px;
+    margin-right: 20px;
+    margin-left: 30px;
+  }
+  
   .gridpopular {
     display: initial;
     width: 370px;
@@ -1475,9 +1502,11 @@ i:hover {
     border-radius: 20px;
     box-shadow: 0px 3px 4px 0px #d1cdcd;
     height: 25%;
+    width: 73%;
     display: flex;
     object-fit: cover;
     margin-bottom: 0;
+
   }
   .topmargin {
     margin-top: 30px;
@@ -1521,9 +1550,9 @@ i:hover {
     width: 96.5%;
     height: auto;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-bottom: 40px;
-    margin-left: 6px;
+    margin-left: 0px;
   }
   .sizeact {
     width: 100%;
@@ -1594,6 +1623,12 @@ i:hover {
     font-weight: bold;
     display: flex;
     align-items: center;
+  }
+  .between2divs {
+    margin-bottom: 0px;
+  }
+  .divmarginin {
+    margin-bottom: -30px;
   }
   /*footer mobile*/
   .flexfoot {
