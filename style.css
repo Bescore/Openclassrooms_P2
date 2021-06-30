@@ -295,7 +295,7 @@ i:hover {
   margin-left: 20px;
 }
 .starsmargin {
-  margin-top: 37px;
+  margin-top: 15px;
 }
 .starsmargin1 {
   margin-top: 20px;
@@ -629,7 +629,7 @@ i:hover {
     object-fit: cover;
   }
   .starsmargin {
-    margin-top: 36px;
+    margin-top: 18px;
   }
   .starsmargin1 {
     margin-top: 10px;
@@ -1036,7 +1036,7 @@ i:hover {
     margin-top: 90px;
   }
   .starsmargin2 {
-    margin-top: 70px;
+    margin-top: 90px;
   }
   .margfoot{
     margin-left: 35px;
@@ -1423,6 +1423,7 @@ i:hover {
   .widthupgrade {
     width: 330px;
     margin-left: 20px;
+    height: 80px;
   }
   .ecart500 {
     margin-left: 10px;
@@ -1519,7 +1520,7 @@ i:hover {
     object-fit: cover;
   }
   .affimarg {
-    margin-left: 35px;
+    margin-left: 0px;
     margin-bottom: 20px;
   }
 
@@ -1527,22 +1528,23 @@ i:hover {
   .paddcaptpop {
     padding-top: 10px;
     margin-left: 10px;
+    width: 150px;
   }
 
   .starsmargin {
-    margin-top: 50px;
+    margin-top: 40px;
   }
   .starsmargin1 {
-    margin-top: 50px;
+    margin-top: 40px;
   }
   .starsmargin2 {
-    margin-top: 35px;
+    margin-top: 40px;
   }
 
   /*activité mobile*/
   .acth2 {
     width: 90%;
-    margin-left: 30px;
+    margin-left: 40px;
   }
   .sectflex {
     display: flex;
