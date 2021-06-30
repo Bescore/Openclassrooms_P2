@@ -1630,6 +1630,9 @@ i:hover {
   .divmarginin {
     margin-bottom: -30px;
   }
+  #two{
+    margin-bottom: -14px;
+  }
   /*footer mobile*/
   .flexfoot {
     display: initial;
