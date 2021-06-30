@@ -177,7 +177,7 @@ i:hover {
   background-color: #fff;
   padding: 1%;
   border-radius: 20px;
-  box-shadow: 0px 3px 4px 0px #f2f2f2;
+  box-shadow: 0px 3px 4px 0px #dddada;
   margin: 0px;
   
 }
@@ -266,7 +266,7 @@ i:hover {
   background-color: #fff;
   padding: 1%;
   border-radius: 20px;
-  box-shadow: 0px 3px 4px 0px #f2f2f2;
+  box-shadow: 0px 3px 4px 0px #dddada;
   height: 125px;
   display: flex;
   object-fit: cover;
@@ -359,7 +359,7 @@ i:hover {
   background-color: #fff;
   border-top: none;
   height: 160px;
-  box-shadow: 0px 0px 3px 0px rgb(151, 147, 147);
+  box-shadow: 0px 3px 4px 0px #f2f2f2;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   display: inline-flex;
@@ -372,7 +372,7 @@ i:hover {
   background-color: #fff;
   border-top: none;
   height: 330px;
-  box-shadow: 0px 0px 3px 0px rgb(151, 147, 147);
+  box-shadow: 0px 3px 4px 0px #f2f2f2;
   display: inline-flex;
   flex-direction: column;
   object-fit: cover;
@@ -391,7 +391,7 @@ i:hover {
   background-color: #fff;
   border-top: none;
   height: 260px;
-  box-shadow: 0px 0px 3px 0px rgb(151, 147, 147);
+  box-shadow: 0px 3px 4px 0px #f2f2f2;
 }
 
 .captionmargin {
@@ -598,10 +598,11 @@ i:hover {
     background-color: #fff;
     padding: 1%;
     border-radius: 20px;
-    box-shadow: 0px 3px 4px 0px #f2f2f2;
+    box-shadow: 0px 3px 4px 0px #dddada;
     width: 232px;
     height: 192px;
   }
+  
   .affimarg {
     margin-left: 5px;
     margin-bottom: 20px;
@@ -624,6 +625,7 @@ i:hover {
     justify-content: center;
     align-items: center;
   }
+  
 
   .sizeimg2 {
     width: 80px;
@@ -693,7 +695,7 @@ i:hover {
     border-top: none;
     height: 225px;
     width: 300px;
-    box-shadow: 0px 0px 3px 0px rgb(209, 201, 201);
+    box-shadow: 0px 3px 4px 0px #f2f2f2;
     display: flex;
     flex-direction: column;
     object-fit: cover;
