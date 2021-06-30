@@ -122,7 +122,11 @@ i:hover {
   border-left: none;
 }
 .bords:hover {
-  background-color: sandybrown;
+  animation: mymove 5s infinite;
+  cursor: pointer;
+}
+@keyframes mymove{
+  20%{transform: scale(1.3);}
 }
 .couleuricon {
   color: #0065fc;
